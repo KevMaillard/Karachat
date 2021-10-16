@@ -21,6 +21,6 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen('8080', () => {
+server.listen('8080', "localhost", () => {
      console.log('Server Start port 8080')
 })
